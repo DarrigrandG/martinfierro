@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="mf.css">
+    <!--<link rel="stylesheet" href="contac.css">-->
     <title>Martín Fierro</title>
     <!--Font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">  
@@ -253,6 +254,40 @@
      <footer class="footer">
       <h3>Página curada por Gonzalo Darrigrand - Copyright</h3>
      </footer>
+     <div class="horizontal-padding vertical-padding">
+        <section class="contact" id="contact">
+          <h2 class="contact-title">Contacto</h2>
+          <div class="contac-details">
+            <div class="contac-details-group">
+              <p class="contac-label">Dirección</p>
+              <p class="contac-text">Buenos Aires</p>
+            </div>
+            <div class="contac-details-group">
+              <p class="contac-label">Esto es una prueba</p>
+              <p class="contac-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. lor</p>
+            </div>
+            <div class="contac-details-group">
+              <p class="contac-text">Otra comentario</p>
+            </div>
+          </div>
+          <form class="contact-form">
+            
+            <div class="contac-form-group">
+              <label for="name">Nombre</label>
+              <input required type="text" name="name" id="name">
+            </div>
+            <div class="contac-form-group">
+              <label for="name">Email</label>
+              <input required type="email" name="email" id="email">
+            </div>
+            <div class="contac-form-group">
+              <label for="message">Mensaje</label>
+              <textarea required name="message" id="message" rows="6"></textarea>
+            </div>
+            <button type="submit" class="contact-form-submit">Enviar</button>
+          </form>
+        </section>
+     </div>
      <!--Scroll Reveal-->
       <script src="https://unpkg.com/scrollreveal"></script>
       <!--Custom js-->
